@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 1, 2017, 9:25:42 PM
+    Author     : jk
+*/
+
+html {
+        min-width: 100%;
+        min-height: 100%;
+        background-position: top center;
+        background-color: #000;
+        text-align: center;
+}
+
+body {
+        width: 1054px;
+        height: 624px;
+        background-color: #2e6349;
+        border: 10px solid red;
+        border-radius: 32px;
+        text-align: center;
+        display: inline-block;
+        margin: 0px auto;     
+}
+  
+.container   {
+        margin: 0px auto;
+        width: 55%;
+}
+h1  {
+        text-align: center;
+}
+            
+.login {
+        width: 55%;
+        margin:15%;
+}
+input  {
+        float: right;
+}
+.loginbox {
+        width:80%;
+        text-align: center;
+}
+.tags {
+        font-size: 25;
+        font-weight: bold;
+        margin-left: 23%;
+}
+.logError {
+        color: blue;
+        float: right;
+        display: none;
+}
+
+.centerButton {
+        display: block;
+} 
+
+.warningText {
+    color: orange;
+}
+
+.hideInputBackground {
+    background-color: #2e6349;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+    float: right;
+}
+
+.table  {
+    border: 2px solid black;
+     
+    vertical-align: bottom;
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+}
